@@ -1,5 +1,8 @@
 var CACHE_NAME = 'js-tests-cache-v1';
-var urlsToCache = [];
+var urlsToCache = [
+  'main.js',
+  'main.css'
+];
 
 self.addEventListener('install', function(event) {
   console.log('install event');
